@@ -5,9 +5,9 @@ Placeholder
 - 2022 - present: **Budapest University of Technology and Economics**  
   Computer science PhD, _advised by [Dr. Vince Molnár](http://mit.bme.hu/~molnarv/)_  
 - 2021 - 2022: **Budapest University of Technology and Economics**  
-  Computer Engineering MSc &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;thesis](publications/mscthesis2015.pdf)
+  Computer Engineering MSc &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;thesis](publications/mscthesis22.pdf)
 - 2017 - 2021: **Budapest University of Technology and Economics**  
-  Computer Engineering BSc &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;thesis](publications/bscthesis2013.pdf)
+  Computer Engineering BSc &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;thesis](publications/bscthesis20.pdf)
 
 ## <i class="fas fa-briefcase fa-fw"></i> Employment
 
