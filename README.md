@@ -11,6 +11,18 @@ Placeholder
 
 ## <i class="fas fa-briefcase fa-fw"></i> Employment
 
+- 2021 - present: [**Center for University-Industry Cooperation, BME**](https://fiek.bme.hu/english/), Budapest, Hungary, **Research Assistant**
+  _Adapting novel concepts of systems engineering (including [SysMLv2](https://www.omgsysml.org/SysML-2.htm)) to industrial processes._
+- 2020 - 2021: [**Thyssenkrupp**](https://www.thyssenkrupp.hu/hu/), Budapest, Hungary, **Software Engineering & Research Intern**
+  _Researching the applicability of multi-core architectures to existing implementations of automotive software._ 
+- 2019 - present: [**Department of Measurement and Information Systems, BME**](http://www.mit.bme.hu/eng/), Budapest, Hungary, **Teaching Assistant**
+  _Delivering practical lectures, correcting and assembling exams, managing homework IT infrastructure._  
+
+## <i class="fas fa-briefcase fa-fw"></i> Volunteering
+
+- 2015 - 2021: [**Skool**](https://skool.org.hu/), Budapest, Hungary, Mentor & Programming Tutor
+  _Helping underrepresented students start their journey with programming._
+
 ## <i class="fas fa-globe fa-fw"></i> Internships
 
 ## <i class="fas fa-desktop fa-fw"></i> Tools
