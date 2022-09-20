@@ -30,7 +30,7 @@ Placeholder
 - 2016 - present: **Theta** [<i class="fab fa-github"></i>](https://github.com/ftsrg/theta)  
   _Generic, modular and configurable model checking framework._
 
-## <i class="fas fa-file-alt fa-fw"></i> Selected Publications
+<!-- ## <i class="fas fa-file-alt fa-fw"></i> Selected Publications -->
 
 ## <i class="fas fa-university fa-fw"></i> Service
 - **Subreviewer**: [CAV'22](http://i-cav.org/2022/), [ISSRE-W'22](https://issre2022.github.io/)
