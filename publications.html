@@ -28,13 +28,17 @@ title: Publications
 <script src="https://bibbase.org/show?bib=https://leventebajczi.github.io%2Fpublications.bib&jsonp=1&theme=side"></script>
 
 <script>
-    var divToWatch = document.getElementById("bibbase");
-    var observer = new MutationObserver(() => {
+    function underliner() {
         var nameSpans = document.querySelectorAll("span.bibbase_paper_author");
-        observer.disconnect();
         nameSpans.forEach(span => {
             span.innerHTML = span.innerHTML.replaceAll("Bajczi, L.", "<u>Bajczi, L.</u>");
         });
+    }
+    underliner();
+    var divToWatch = document.getElementById("bibbase");
+    var observer = new MutationObserver(() => {
+        observer.disconnect();
+        underliner();
         observer.observe(divToWatch, {subtree: true, childList: true});
     });
     observer.observe(divToWatch, {subtree: true, childList: true}); 
