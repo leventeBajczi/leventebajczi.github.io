@@ -22,7 +22,7 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
 - 2019 - present: [Department of Measurement and Information Systems, BME](http://www.mit.bme.hu/eng/), Budapest, Hungary, **Teaching Assistant**  
   _Delivering practical lectures, correcting and assembling exams, managing homework IT infrastructure._    
 
-## <i class="fas fa-handshake-angle fa-fw"></i> Volunteering
+## <i class="fas fa-handshake fa-fw"></i> Volunteering
 
 - 2015 - 2021: [Skool](https://skool.org.hu/), Budapest, Hungary, Mentor & Programming Tutor  
   _Helping underrepresented students start their journey with programming._
