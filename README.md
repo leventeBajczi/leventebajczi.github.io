@@ -12,8 +12,8 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
   Computer Engineering BSc &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;thesis](publications/bscthesis20.pdf)
 
 ## <i class="fas fa-star fa-fw"></i> Certifications  
-- 2021: **Systems Modeling Professional** [OMG-OCSMP](https://www.omg.org/ocsmp/)  
-  _Model User_
+- 2021: **Systems Modeling Professional, Model User** [OMG-OCSMP](https://www.omg.org/ocsmp/)  
+  _Demonstrating the ability to interpret and understand basic MBSE concepts along with SysML models_.
 
 ## <i class="fas fa-briefcase fa-fw"></i> Employment
 
