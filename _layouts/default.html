@@ -40,7 +40,7 @@
           <i class="fas fa-envelope fa-fw"></i> {{ site.mail }}<br />
         {% endif %}
         {% if site.cv %}
-          <i class="fas fa-file-pdf fa-fw"></i> <a href="{{ site.cv }}">Short CV</a> &nbsp; <a href="{{ site.cvlong }}">Long CV</a><br />
+          <i class="fas fa-file-pdf fa-fw"></i> <a href="{{ site.cv }}">Short CV</a><!-- &nbsp; <a href="{{ site.cvlong }}">Long CV</a>--><br />
         {% endif %}
 		  <i class="far fa-file-alt fa-fw"></i> <a href="publications.html">Publications</a><br />
         </p>
@@ -66,9 +66,6 @@
         {% endif %}
         {% if site.flickr %}
           <a href="https://www.flickr.com/photos/{{ site.flickr }}"><i class="fab fa-flickr fa-2x"></i></a>
-        {% endif %}
-        {% if site.cv %}
-          <a href="{{ site.cv }}"><i class="ai ai-cv ai-2x"></i></a>
         {% endif %}
         </p>
 
