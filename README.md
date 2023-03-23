@@ -41,5 +41,6 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
 <!-- ## <i class="fas fa-file-alt fa-fw"></i> Selected Publications -->
 
 ## <i class="fas fa-university fa-fw"></i> Service
+- **Reviewer**: [TACAS'23 (SV-COMP)](https://sv-comp.sosy-lab.org/2023/), [FormaliSE'23](https://formalise2023.github.io/), [CSAE'23](https://www.csaeconf.org/2023)
 - **Subreviewer**: [ISSRE-W'22](https://issre2022.github.io/), [VMCAI'23](https://vmcai-2023.github.io/)
-- **Artifact Subreviewer**: [TACAS'22 (SV-COMP)](https://sv-comp.sosy-lab.org/2022/), [CAV'22](http://i-cav.org/2022/)
+- **Artifact Evaluation**: [TACAS'22 (SV-COMP)](https://sv-comp.sosy-lab.org/2022/), [TACAS'23 (SV-COMP)](https://sv-comp.sosy-lab.org/2023/), [CAV'22](http://i-cav.org/2022/), [CAV'23](http://i-cav.org/2023/)
