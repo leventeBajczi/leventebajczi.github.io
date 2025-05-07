@@ -102,3 +102,172 @@
     url_slides = {https://leventebajczi.github.io/publications/slides/tacas24etheta.pdf},
     url_mtmt = {https://m2.mtmt.hu/api/publication/34768422},
 }
+
+@inproceedings{MTMT:35617761,
+	title = {Verbesserung der MBSE-Ausbildung durch Versionskontrolle und automatisiertes Feedback},
+	author = {Bajczi, Levente and Szekeres, Dániel and Siegl, Daniel and Molnár, Vince},
+	booktitle = {Tag des Systems Engineering},
+	unique-id = {35617761},
+	year = {2024},
+	pages = {161-169},
+	orcid-numbers = {Bajczi, Levente/0000-0002-6551-5860; Szekeres, Dániel/0000-0002-2912-028X; Molnár, Vince/0000-0002-8204-7595},
+
+    url_pdf    = {https://leventebajczi.github.io/publications/tdse24verbesserung.pdf},
+    url_slides = {https://leventebajczi.github.io/publications/slides/tdse24verbesserung.pdf},
+    url_mtmt = {https://m2.mtmt.hu/api/publication/35617761},
+}
+
+@misc{bajczi2024enhancingmbseeducationversion,
+	title={Enhancing MBSE Education with Version Control and Automated Feedback}, 
+	author={Levente Bajczi and Dániel Szekeres and Daniel Siegl and Vince Molnár},
+	year={2024},
+	eprint={2409.15294},
+	archivePrefix={arXiv},
+	primaryClass={cs.CY},
+	url={https://arxiv.org/abs/2409.15294}, 
+
+
+    url_slides = {https://leventebajczi.github.io/publications/slides/tdse24verbesserung.pdf},
+	url_pdf    = {https://leventebajczi.github.io/publications/tdse24enhancing.pdf},
+}
+
+
+@article{MTMT:35762171,
+	title = {{NetworCat: applying analysis techniques of shared memory software on message-passing distributed systems}},
+	author = {Bajczi, Levente and Molnár, Vince},
+	doi = {10.1007/s10270-024-01258-x},
+	journal-iso = {SOFTW SYST MODEL},
+	journal = {SOFTWARE AND SYSTEMS MODELING},
+	unique-id = {35762171},
+	issn = {1619-1366},
+	abstract = {Communication models are a key aspect in the design and implementation of distributed system architectures. Application logic must consider the guarantees of these models, which fundamentally influence its correctness. Modern multi-core processor architectures face a similar problem when it comes to accessing shared memory: the guarantees of an architecture have a fundamental impact on the observable behavior of software. The formalization of these guarantees in a declarative way has led to powerful tools and algorithms to define reusable constraints on patterns of memory access events and their relationships, enabling the efficient description and automatic formal analysis of software properties with respect to a specific architecture. The Cat memory modeling language provides a standard means of specifying these constraints. Despite the parallels, the axiomatic modeling and analysis of communication models in distributed systems remain a relatively unexplored area. In this paper, we address this gap and demonstrate how communication models can be mapped to the Cat language. We create a standard library of reusable patterns and demonstrate our approach, called NetworCat , on the simple examples of UDP and TCP, and we also present its applicability to the vastly configurable OMG-DDS service. This adaptation-based approach enables the use of ever-improving verification tools built for shared memory concurrency on distributed systems. We believe this not only benefits distributed system analyses by broadening the toolset for verification but also positively impacts the field of memory-model-aware verification by widening its audience to another domain.},
+	year = {2025},
+	eissn = {1619-1374},
+	orcid-numbers = {Bajczi, Levente/0000-0002-6551-5860; Molnár, Vince/0000-0002-8204-7595},
+
+    url_pdf    = {https://leventebajczi.github.io/publications/sosym25networcat.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/35762171},
+}
+
+@article{MTMT:33784283,
+	title = {Bottoms Up for CHCs: Novel Transformation of Linear Constrained Horn Clauses to Software Verification},
+	author = {Somorjai, Márk and Dobos-Kovács, Mihály and Ádám, Zsófia and Bajczi, Levente and Vörös, András},
+	doi = {10.4204/EPTCS.402.11},
+	journal-iso = {ELECTRON PROC THEOR COMPUT SCI},
+	journal = {ELECTRONIC PROCEEDINGS IN THEORETICAL COMPUTER SCIENCE},
+	volume = {402},
+	unique-id = {33784283},
+	abstract = {Constrained Horn Clauses (CHCs) have conventionally been used as a low-level representation in formal verification. Most existing solvers use a diverse set of specialized techniques, including direct state space traversal or under-approximating abstraction, necessitating purpose-built complex algorithms. Other solvers successfully simplified the verification workflow by translating the problem to inputs for other verification tasks, leveraging the strengths of existing algorithms. One such approach transforms the CHC problem into a recursive program roughly emulating a top-down solver for the deduction task; and verifying the reachability of a safety violation specified as a control location. We propose an alternative bottom-up approach for linear CHCs, and evaluate the two options in the open-source model checking framework THETA on both synthetic and industrial examples. We find that there is a more than twofold increase in the number of solved tasks when the novel bottom-up approach is used in the verification workflow, in contrast with the top-down technique. © Márk Somorjai et al.},
+	year = {2024},
+	eissn = {2075-2180},
+	pages = {105-117},
+	orcid-numbers = {Dobos-Kovács, Mihály/0000-0002-0064-2965; Ádám, Zsófia/0000-0003-2354-1750; Bajczi, Levente/0000-0002-6551-5860},
+
+    url_pdf    = {https://leventebajczi.github.io/publications/hcvs24chc.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/33784283},	
+}
+
+@article{MTMT:34853031,
+	title = {Solving Constrained Horn Clauses as C Programs with CHC2C},
+	author = {Bajczi, Levente and Molnár, Vince},
+	doi = {10.1007/978-3-031-66149-5_8},
+	journal-iso = {LNCS},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {14624},
+	unique-id = {34853031},
+	issn = {0302-9743},
+	abstract = {Solving Constrained Horn Clauses (CHC) is necessitated by numerous fields in formal methods, from verifying software and smart contracts to modeling systems, yet the competitive scene for academic tools remains fairly sparse, especially compared to more popular fields such as software verification. Comparative evaluation as a competition, such as SV-COMP or CHC-COMP, sparks a more cohesive community around fields in formal methods. Lately, a trend has been emerging with tools such as Btor2C that bridge multiple fields together, thus widening this cohesion. Following that example, we propose and perform an experiment, where we use CHC-to-C transformation to apply software verification tools to linear CHC problems. In the process, we help both fields by diversifying the scene of CHC solvers and providing new and valuable benchmarks to aid the development of software verification tools. Using these benchmarks, we uncovered a previously hidden bug in multiple verification tools that can lead to false positive results. By analysing the results of the experiment, we can confidently make a recommendation for developers of software verifiers to consider supporting CHCs via our pre-verification transformation.},
+	keywords = {verification; formal methods; Computer Science, Software Engineering; CHC},
+	year = {2024},
+	eissn = {1611-3349},
+	pages = {146-163},
+	orcid-numbers = {Bajczi, Levente/0000-0002-6551-5860; Molnár, Vince/0000-0002-8204-7595},
+
+
+    url_pdf    = {https://leventebajczi.github.io/publications/spin24chc2c.pdf},
+    url_slides = {https://leventebajczi.github.io/publications/slides/spin24chc2c.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/34853031},	
+}
+
+@article{MTMT:36122885,
+	title = {Theta: Various Approaches for Concurrent Program Verification (Competition Contribution)},
+	author = {Telbisz, Csanád Ferenc and Bajczi, Levente and Szekeres, Dániel and Vörös, András},
+	doi = {10.1007/978-3-031-90660-2_22},
+	journal-iso = {LNCS},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {15698},
+	unique-id = {36122885},
+	issn = {0302-9743},
+	abstract = {Theta is a model checking framework with a strong emphasis on effectively handling concurrency in software using abstraction refinement algorithms. In SV-COMP 2025, we complement our existing approach (abstraction-aware partial order reduction) for multi-threaded programs with a happens before propagator-based BMC check, expecting a significant increase in performance. We again utilize our portfolio with dynamic algorithm selection from last year, with improvements regarding solver choice and configuration ordering. In this paper, we detail our algorithmic improvements in Theta regarding the verification of concurrent software.},
+	year = {2025},
+	eissn = {1611-3349},
+	pages = {260-265},
+	orcid-numbers = {Telbisz, Csanád Ferenc/0000-0002-6260-5908; Bajczi, Levente/0000-0002-6551-5860; Szekeres, Dániel/0000-0002-2912-028X},
+
+
+    url_pdf    = {https://leventebajczi.github.io/publications/tacas25theta.pdf},
+	url_poster = {https://leventebajczi.github.io/publications/posters/tacas25.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/36122885},	
+}
+
+@article{MTMT:36122888,
+	title = {SV-COMP’25 Reproduction Report (Competition Contribution)},
+	url = {https://m2.mtmt.hu/api/publication/36122888},
+	author = {Bajczi, Levente and Ádám, Zsófia and Micskei, Zoltán Imre},
+	doi = {10.1007/978-3-031-90660-2_10},
+	journal-iso = {LNCS},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {15698},
+	unique-id = {36122888},
+	issn = {0302-9743},
+	abstract = {The International Competition on Software Verification (SV-COMP) has been an important driver of progress in the formal verification community, fostering tool development, benchmarking, and reproducibility. As the competition grows in scale and complexity, a reproducibility study is essential to evaluate its robustness across environments, uncover hidden dependencies, and ensure long-term sustainability. This work aims to reaffirm the reliability of SV-COMP’s results, provide insights for similar competitions, and facilitate the adoption of its infrastructure beyond the competition. We reproduced the verification and validation results of active participants, including score and ranking calculations for the verification track. We found several problems prohibiting reusability and reproducibility of some participating tools, but we did not find serious issues with the competition infrastructure itself.},
+	year = {2025},
+	eissn = {1611-3349},
+	pages = {187-191},
+	orcid-numbers = {Bajczi, Levente/0000-0002-6551-5860; Ádám, Zsófia/0000-0003-2354-1750; Micskei, Zoltán Imre/0000-0003-1846-261X},
+
+
+    url_pdf    = {https://leventebajczi.github.io/publications/tacas25repro.pdf},
+	url_slides = {https://leventebajczi.github.io/publications/slides/tacas25repro.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/36122888},	
+}
+
+@article{MTMT:36122891,
+	title = {{EmergenTheta: Variations on Symbolic Transition Systems (Competition Contribution)}},
+	author = {Mondok, Milán and Bajczi, Levente and Szekeres, Dániel and Molnár, Vince},
+	doi = {10.1007/978-3-031-90660-2_15},
+	journal-iso = {LNCS},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {15698},
+	unique-id = {36122891},
+	issn = {0302-9743},
+	abstract = {EmergenTheta is our sandbox for experimental analyses. After its successful debut in SV-COMP’24, we kept some well-performing but still under-tested configurations, and complemented them with a new saturation algorithm over decision diagrams, and two ways of extending their verification power: wrapping them in a lightweight, counterexample-guided abstraction refinement (CEGAR) loop based on implicit predicate abstraction; and backwards traversal of the state space. All such analyses now rely on a common interface to the underlying symbolic transition system, integrating seamlessly into the existing Theta framework. Using this combination of proven analyses and novel extensions, EmergenTheta outperformed our expectations in SV-COMP’25.},
+	year = {2025},
+	eissn = {1611-3349},
+	pages = {217-222},
+	orcid-numbers = {Mondok, Milán/0000-0001-5396-2172; Bajczi, Levente/0000-0002-6551-5860; Szekeres, Dániel/0000-0002-2912-028X; Molnár, Vince/0000-0002-8204-7595},
+
+    url_pdf    = {https://leventebajczi.github.io/publications/tacas25etheta.pdf},
+	url_slides = {https://leventebajczi.github.io/publications/slides/tacas25etheta.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/36122891},	
+}
+
+@article{MTMT:36122897,
+	title = {On Stability in a Happens-Before Propagator for Concurrent Programs (Reproducibility Study)},
+	author = {Bajczi, Levente and Telbisz, Csanád Ferenc and Szekeres, Dániel and Vörös, András},
+	doi = {10.1007/978-3-031-90643-5_1},
+	journal-iso = {LNCS},
+	journal = {LECTURE NOTES IN COMPUTER SCIENCE},
+	volume = {15696},
+	unique-id = {36122897},
+	issn = {0302-9743},
+	abstract = {Analyzing concurrent programs often involves reasoning about happens-before relations, handled by dedicated SMT theory solvers. Recently, preventative propagation rules have been introduced for consistency models to avoid unnecessary computations. This paper analyses the reproducibility of a recently published paper regarding a conflict-avoiding happens-before propagator. We show that the underlying axioms are insufficient for supporting sequential consistency. We find that the algorithm can leave out constraints on event ordering (even considering the original axioms), impacting the accuracy of verification. We show a simple counterexample to the stability claim in the paper. Two revisions of the algorithm are presented, and a proof on the correctness of these approaches respective of the original axioms is shown. The tool implementing the original algorithm is examined to ascertain how it circumvents wrong results. It is found that it deviates from the published algorithm. We show that an unmodified algorithm (via a patch in the implementing tool) causes incorrect results. We also show that our revised algorithm can be implemented efficiently in an independent verification tool.},
+	year = {2025},
+	eissn = {1611-3349},
+	pages = {3-19},
+	orcid-numbers = {Bajczi, Levente/0000-0002-6551-5860; Telbisz, Csanád Ferenc/0000-0002-6260-5908; Szekeres, Dániel/0000-0002-2912-028X},
+
+    url_pdf    = {https://leventebajczi.github.io/publications/tacas25ocfix.pdf},
+	url_slides = {https://leventebajczi.github.io/publications/slides/tacas25ocfix.pdf},
+	url_mtmt   = {https://m2.mtmt.hu/api/publication/36122897},	
+}
