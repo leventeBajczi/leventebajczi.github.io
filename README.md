@@ -44,7 +44,17 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
 - 2024 - present: **JavaSMT** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/java-smt) (Contributor)
   _Unified Java API for SMT solvers._
 
-<!-- ## <i class="fas fa-file-alt fa-fw"></i> Selected Publications -->
+## <i class="fas fa-file-alt fa-fw"></i> Selected Publications
+- **[SoSyM](https://www.sosym.org/)** **Networcat: applying analysis techniques of shared memory software on message-passing distributed systems**  
+  With Vince Molnár &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;paper](publications/sosym25networcat.pdf)
+- **[TACAS'25](https://etaps.org/2025/conferences/tacas/)** **On Stability in a Happens-Before Propagator for Concurrent Programs (Reproducibility Study)**  
+  With Csanád Telbisz, Dániel Szekeres, and András Vörös &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;paper](publications/tacas25ocfix.pdf)
+- **[SPIN'24](https://spin-web.github.io/SPIN2024/)** **Solving Constrained Horn Clauses as C Programs with CHC2C**  
+  With Vince Molnár &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;paper](publications/spin24chc2c.pdf)
+- **[FormaliSE'22](https://conf.researchr.org/home/icse-2022/Formalise-2022)** **C for Yourself: Comparison of Front-End Techniques for Formal Verification**  
+  With Zsófia Ádám, and Vince Molnár &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;paper](publications/formalise22.pdf)
+- **[TECS](https://dl.acm.org/journal/tecs)/[EMSOFT'19](https://sigbed.org/emsoft-2019/)** **Will My Program Break on This Faulty Processor?**  
+  With Vörös András, and Vince Molnár &nbsp;[<i class="fas fa-file-alt"></i>&nbsp;paper](publications/emsoft19.pdf)
 
 ## <i class="fas fa-university fa-fw"></i> Service
 - **Local chair**: [OTDK'25](https://otdk25.vik.bme.hu/)
