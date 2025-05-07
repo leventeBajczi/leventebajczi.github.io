@@ -35,12 +35,19 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
   _Helping underrepresented students start their journey with programming._
 
 ## <i class="fas fa-desktop fa-fw"></i> Tools
-- 2016 - present: **Theta** [<i class="fab fa-github"></i>](https://github.com/ftsrg/theta)  
+- 2016 - present: **Theta** [<i class="fab fa-github"></i>](https://github.com/ftsrg/theta) (Maintainer)
   _Generic, modular and configurable model checking framework._
+
+- 2024 - present: **BenchExec** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/benchexec) (Contributor)
+  _Framework for reliable benchmarking and resource measurement._
+
+- 2024 - present: **JavaSMT** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/java-smt) (Contributor)
+  _Unified Java API for SMT solvers._
 
 <!-- ## <i class="fas fa-file-alt fa-fw"></i> Selected Publications -->
 
 ## <i class="fas fa-university fa-fw"></i> Service
+- **Local chair**: [OTDK'25](https://otdk25.vik.bme.hu/)
 - **Reviewer (journal)**: [SCP](https://www.elsevier.marketing/journal/Science-of-Computer-Programming)
 - **PC member**: [TACAS'24 (SV-COMP)](https://sv-comp.sosy-lab.org/2024/), [TACAS'23 (SV-COMP)](https://sv-comp.sosy-lab.org/2023/), [FormaliSE'23](https://formalise2023.github.io/), [CSAE'23](https://www.csaeconf.org/2023)
 - **Subreviewer**: [ISSRE-W'22](https://issre2022.github.io/), [VMCAI'23](https://vmcai-2023.github.io/), [SBMF'23](https://sbmf23.ufam.edu.br/), [FASE'25](https://etaps.org/2025/conferences/fase/)
