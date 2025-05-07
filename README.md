@@ -37,10 +37,8 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
 ## <i class="fas fa-desktop fa-fw"></i> Tools
 - 2016 - present: **Theta** [<i class="fab fa-github"></i>](https://github.com/ftsrg/theta) (Maintainer)
   _Generic, modular and configurable model checking framework._
-
 - 2024 - present: **BenchExec** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/benchexec) (Contributor)
   _Framework for reliable benchmarking and resource measurement._
-
 - 2024 - present: **JavaSMT** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/java-smt) (Contributor)
   _Unified Java API for SMT solvers._
 
