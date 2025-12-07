@@ -41,6 +41,8 @@ My PhD advisor is [Dr. Vince Molnár](https://mit.bme.hu/~molnarv).
   _Framework for reliable benchmarking and resource measurement._
 - 2024 - present: **JavaSMT** [<i class="fab fa-github"></i>](https://github.com/sosy-lab/java-smt) (Contributor)
   _Unified Java API for SMT solvers._
+- 2025 - present: **CPAchecker** [<i class="fab fa-gitlab"></i>](https://gitlab.com/sosy-lab/software/cpachecker) (Contributor)
+  _The Configurable Software-Verification Platform._
 
 ## <i class="fas fa-file-alt fa-fw"></i> Selected Publications
 - **[SoSyM](https://www.sosym.org/)** **Networcat: applying analysis techniques of shared memory software on message-passing distributed systems**  
